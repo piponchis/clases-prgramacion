@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <h1 style="font-family: 'League Gothic', sans-serif;">contactanos</h1>
+        <p style="font-family: 'League Gothic', sans-serif;">para tener el gusto de atenderlo</p>
+        <img src="../imagenes/contact-center-people-square.png" width="30%" alt="">
+        <br>
+        <form>
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu nombre</label><br>
+            <input required name="nombre" type="text"placeholder="Digita tus datos"><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu edad</label><br>
+            <input required name="edad" type="number"placeholder="Digita tu edad"><br>
+            <input required name="edad" type="number" min="18" max="55"><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu telefono</label><br>
+            <input type="telefono"><br>
+            <label style="font-family: 'League Gothic', sans-serif;"> Fecha de nacimiento</label><br>
+            <input required name="datos" type="date" min="2004-12-31" max="2023-12-31"><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Selecciona genero</label><br>
+            <input value="hombre" name="genero" type="radio"> Hombre
+            <input value="mujer" name="genero" type="radio"> Mujer
+            <input value="Binario" name="genero" type="radio"> Binario
+            <input value="Nosabe" name="genero" type="radio"> Nosabe <br>
+            <label style="font-family: 'League Gothic', sans-serif;"> Selecciona una prenda</label><br>
+            <input name="manchester" type="radio"> camisa roja
+            <input name="manchester" type="radio"> camisa negra
+            <input name="manchester" type="radio"> articulo de coleccion
+            <input name="manchester" type="radio"> otro <br>    
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu correo</label><br>
+            <input type="email"><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu contraseña</label><br>
+            <input type="password"><br>
+            <label style="font-family: 'League Gothic', sans-serif;"> Escoja color</label><br>
+            <input type="color"> <br>
+            <label style="font-family: 'League Gothic', sans-serif;"> Escoje una foto</label>
+            <input type="file" accept="jpg, .png, .gif"><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Como desea que te contactemos</label>
+            <select name="Contacto">
+                <option style="font-family: 'League Gothic', sans-serif;" value="humo">Señales de humo</option>
+                <option style="font-family: 'League Gothic', sans-serif;" value="paloma">Paloma mensajera</option>
+                <option style="font-family: 'League Gothic', sans-serif;" value="whattsapp">Por telefono</option>
+                <option style="font-family: 'League Gothic', sans-serif;" value="telefono">Correo electronico</option>
+            </select><br><br>
+            <label style="font-family: 'League Gothic', sans-serif;">Escribe tu mensaje</label><br><br>
+            <textarea name="mensaje" cols="30" rows="20"></textarea><br><br>
+            <button style="font-family: 'League Gothic', sans-serif;" type="reset">Borrar datos</button>
+            <button style="font-family: 'League Gothic', sans-serif;" type="button"> No hace nada</button>
+            <button style="font-family: 'League Gothic', sans-serif;" type="submit">Enviar datos</button>
+
+        </form>
+    </center>
+    
+</body>
+</html>
